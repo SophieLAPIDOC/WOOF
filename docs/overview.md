@@ -16,11 +16,10 @@ WOOF! lets you discover a full range of dog profiles, from small to large, from 
 * **Park users** who might want to have fun with other people's dogs (and those who'd rather avoid them altogether).
 
 ## Get started
-* Connect to the WOOF API!
-* Read the Quick Start Guide to find a dog park in your city, then add your dog's profile to WOOF!.
+* [Set up your environement and connect to WOOF!](initial-setu.md)
+* [Find a dog park in your city, then add your dog's profile to WOOF!](quick-start.md)
 
 ## Tutorials
-* Find a list of parks by zip code.
 * Find the best parks (user-rated) in your city.
 * Add your favourite park.
 * Update your dog's presence at the park.
