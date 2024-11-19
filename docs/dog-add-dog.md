@@ -14,7 +14,7 @@ Create a new catalogue entry for a dog.
 ```json
 {
     "name": "Beckett",
-    "photo": "../Photos/Beckett.jpeg",
+    "photo": "",
     "breed": "Irish Wolfhound",
     "size": "Large",
     "human": "Samuel and Suzanne",
@@ -29,7 +29,7 @@ Status code: `201 Created`
 ```json
 {
     "name": "Beckett",
-    "photo": "../Photos/Beckett.jpeg",
+    "photo": "",
     "breed": "Irish Wolfhound",
     "size": "Large",
     "human": "Samuel and Suzanne",
