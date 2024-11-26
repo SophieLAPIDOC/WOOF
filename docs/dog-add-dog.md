@@ -1,4 +1,4 @@
-# [WOOF! API Reference](overview.md)
+# [WOOF! API Reference](overview.md#reference)
 ## Add a new dog
 Create a new catalogue entry for a dog.
 

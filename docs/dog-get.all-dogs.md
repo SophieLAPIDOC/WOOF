@@ -1,4 +1,4 @@
-# [WOOF! API Reference](overview.md)
+# [WOOF! API Reference](overview.md#reference)
 ## Get a list of all dogs
 
 Get the full list of the dogs registered in the WOOF! API identified by their unique ID.

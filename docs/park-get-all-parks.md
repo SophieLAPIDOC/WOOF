@@ -1,4 +1,4 @@
-# [WOOF! API Reference](overview.md)
+# [WOOF! API Reference](overview.md#reference)
 ## Get a list of all parks
 **GET** /park
 

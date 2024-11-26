@@ -1,4 +1,4 @@
-# [WOOF! API Reference](overview.md)
+# [WOOF! API Reference](overview.md#reference)
 ## `park` resource
 
 Base endpoint:
@@ -7,7 +7,7 @@ Base endpoint:
 {server_url}/park
 ```
 
-**Park** contains details about the (dog) parks registered in the WOOF! API. 
+**Park** contains details about the parks registered in the WOOF! API. 
 
 ```json
 {

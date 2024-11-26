@@ -1,4 +1,4 @@
-# [WOOF! API Reference](overview.md)
+# [WOOF! API Reference](overview.md#reference)
 # `dog` resource
 
 Base endpoint:
@@ -27,7 +27,6 @@ Sample `dog` resource
 }
 ```
 
-**Note:** All properties are required.
 
 |Property name   |Type   |Description   |   
 |---|---|---|

@@ -1,6 +1,6 @@
 # Get started with the WOOF! API
 Using the WOOF! API is a walk in the park. 
-In this tutorial, we'll show you how to find a park by town name, then add your dog profile to the service. 
+In this tutorial, we'll show you how to find a park in your town, then add your dog's profile to the service. 
 We'll also show you add a new park to WOOF!
 
 This should take about 15 - 20 minutes to complete. Just a short stroll.
@@ -9,11 +9,11 @@ If you want to wander further afield, read our advanced [Tutorials](overview.md#
 
 ## Prerequisites 
  1. Start the json-server, as explained in [set up your environment](initial-setup.md)
- 2. Open the Postman app.
+ 2. Open the [Postman desktop app](https://www.postman.com/downloads/).
     
 
 ## Find a park in your town
-To locate a dog park in a specific town - in this example, let's use Madison CT, send this request:
+To locate a dog park in a specific town - in this example, let's use Madison CT - send this request:
 ```
 POST http://localhost:3000/park?town=Madison
 ```

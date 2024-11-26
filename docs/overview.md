@@ -16,15 +16,14 @@ WOOF! lets you discover a full range of dog profiles, from small to large, from 
 * **Park users** who might want to have fun with other people's dogs (and those who'd rather avoid them altogether).
 
 ## Get started
-* [Set up your environement and connect to WOOF!](initial-setu.md)
+* [Set up your environement and connect to WOOF!](initial-setup.md)
 * [Find a dog park in your city, then add your dog's profile to WOOF!](quick-start.md)
 
 ## Tutorials
-* Find the best parks (user-rated) in your city.
-* Add your favourite park.
-* Update your dog's presence at the park.
-* Find a park with other small dogs in your city.
-* Find who is at your favourite park now.
+* [Find the best parks (user-rated) in your city](tuto-get-top-rated-park.md).
+* [Update your dog's presence at the park](tuto-update-park-presence.md).
+* [Find other small dogs in your favourite park](tuto-get-park-small-dogs.md).
+* [Find who goes to your favourite park](tuto-get-dogs-by-park.md).
 
 ## Reference
 * [dog](dog-ref.md)
