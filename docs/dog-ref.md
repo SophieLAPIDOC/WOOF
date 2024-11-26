@@ -50,5 +50,5 @@ Sample `dog` resource
   
 ## Related topics
 * [park](park-ref.md)
-* tutorials
+* [tutorials](overview.md#tutorials)
 
