@@ -1,4 +1,4 @@
-# Set your environment
+# Set up your environment
 Before you can take the WOOF! API for a walk, you should set up your development environment.
 
 This is a one-off setup that should take about 20 minutes to complete.
@@ -12,8 +12,8 @@ To use the WOOF! API you need:
 Download and install the following software on your development system:
 * [Git](https://docs.github.com/en/get-started/quickstart/set-up-git) (for the command line)
 * [GitHub Desktop](https://desktop.github.com) (optional)
-* A fork of the [To-Do-Service repo](https://github.com/SophieLAPIDOC/WOOF)
-* A current/LTS version of `node.js`
+* A fork of the [WOOF! API repo](https://github.com/SophieLAPIDOC/WOOF)
+* A current/LTS version of [node.js](https://nodejs.org/en)
 * A current version of [json-server](https://www.npmjs.com/package/json-server)
 * The [Postman desktop app](https://www.postman.com/downloads/). 
 
