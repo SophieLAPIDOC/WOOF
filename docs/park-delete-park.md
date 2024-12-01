@@ -1,7 +1,11 @@
 # [WOOF! API Reference](overview.md#reference)
 ## Remove a park
+Delete the details of a `par` from the WOOF! API.
 
-**DELETE** /park/{id}
+### Request
+```
+DELETE /park/{id}
+```
 
 ## Parameters
 |Parameter name   |Type   |Description   |   

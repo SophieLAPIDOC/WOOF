@@ -1,20 +1,41 @@
 # [WOOF! API Reference](overview.md#reference)
 ## Update the details of a dog
-Change any of the proprties for a `dog`.
+Change any of the proprties for an existing `dog` entry.
 
-**PUT** /dog/{id}
+### Request
+```
+PUT /dog/{id}
+```
+### Request Headers
+* `Content-Type`: `application/json`
 
-## Sample request
+### Request body
+When using the **POST** method include  all the `dog` respurce properties as listed in [dog resource](dog-ref.md) and change the values, as required.
+
+|Property name   |Type   |Description   |   
+|---|---|---|
+| `name`  |string   | The name of the dog.  |
+| `photo`  |string   | File path to the dog's photo.  |   
+| `breed`  |string   | The record ID of the user.  |   
+| `size`  |string   | The size category of the dog: Small, Medium, Large.  |   
+| `human`  |string  | The name of the owner or person in charge. Multiple values allowed if comma separated. Can be full name or first name only.  | 
+| `zip_code`  |string   | Zip Code where dog and humans reside.  |   
+| `something_about_yourself`  |string   | A short description of the dog's character personality.  |   
+| `at_the_park_?`  |string   | Whether the dog is at the park right now: True/False. Default value is False. |   
+| `park_id`  |integer  | The record ID of the park.  |   
+| `id`  |integer   | The record ID of the dog.  | 
+
+### Sample request
 ```
 {base_url}/dog/8
 ```
 
-## Sample body
+### Sample body
 
 ```json
 {
     "name": "Beckett Jr.",
-    "photo": "../Photos/Beckett.jpeg",
+    "photo": "",
     "breed": "Irish Wolfhound",
     "size": "Large",
     "human": "Samuel and Suzanne",
@@ -26,7 +47,7 @@ Change any of the proprties for a `dog`.
 ```
 
 ## Sample response
-Returns the update `dog` record.
+Returns the updated `dog` record.
 
 Status code: `200 OK`
 

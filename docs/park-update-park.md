@@ -1,7 +1,28 @@
 # [WOOF! API Reference](overview.md#reference)
-## Update the details a of dog
+## Update the details a of park
 
-**PUT** /park/{id}
+Change any of the proprties for an existing `park` entry.
+
+### Request
+```
+PUT /park/{id}
+```
+### Request Headers
+* `Content-Type`: `application/json`
+
+### Request body
+When using the **POST** method include  all the `park` respurce properties as listed in [park resource](park-ref.md) and change the values, as required.
+
+|Property name   |Type   |Description   |   
+|---|---|---|
+| `park_name`  |string   | The name of the park.  |
+| `town`  |string   | Town where the park is located.  |   
+| `coordinates`  |number  | Geographic coordinates of the park, as decimal degrees. |   
+| hours`  |string   | Opening hours of the park.  |   
+| `amenities`  |string  | Brief enumeraton of amenities available to dogs.  |  
+| `comments`  |string   | Any additional information about the park.  |   
+| `rating`  |integer  | Dog owner rating for the pak, on a 1-5 scale, where 1 is poor satisfaction and 5 is very satisfied.  |   
+| `id`  |integer  | The record ID of the pak.  |  
 
 ## Sample request
 ```
@@ -21,7 +42,10 @@
   "rating": "4"
 }
 ```
+
+
 ## Sample response
+Returns the updated `dog` record.
 
 Status code: `200 OK`
 

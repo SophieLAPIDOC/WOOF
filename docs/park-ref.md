@@ -1,14 +1,16 @@
 # [WOOF! API Reference](overview.md#reference)
 ## `park` resource
 
+
 Base endpoint:
 
 ```
-{server_url}/park
+{base_url}/park
 ```
+**Note:** The `{base_url}` will vary depending on your developemnt environement. When running the WOOF!API locally, the `{base_url}` is `http://localhost:3000`.
 
-**Park** contains details about the parks registered in the WOOF! API. 
-
+`park` contains details about the parks registered in the WOOF! API. 
+## Resource properties
 ```json
 {
   "park_name": "Paw Dog Park",
@@ -36,7 +38,7 @@ Base endpoint:
 
 ## Endpoints
 * [Get all parks](park-get-all-parks.md)
-* [Get park by ID](park-get-park-by-id.md)
+* [Find park by ID](park-get-park-by-id.md)
 * [Add park](park-add-new-park.md)
 * [Update park](park-update-park.md)
 * [Remove park](park-delete-park.md)

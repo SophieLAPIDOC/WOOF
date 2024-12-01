@@ -1,22 +1,26 @@
 # [WOOF! API Reference](overview.md#reference)
-## Get the details of a dog by ID
+## Get a dog by ID
 
 Get the catalogue details of a single dog identified by its unique ID.
 
-**GET** /dog/{id}
+### Request
+```
+GET /dog/{id}
+```
 
-## Parameters
+
+### Parameters
 
 |Parameter name   |Type   |Description   |   
 |---|---|---|
 | `id`  |number   | The ID of the dog record to be updated.   |  
 
-## Sample request
+### Sample request
 ```
 {base_url}/dog/4
 ``` 
 
-## Sample response
+### Sample response
 Returns the details of the dog identified by its unique ID.
 
 Status code: `200 OK`

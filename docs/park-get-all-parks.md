@@ -1,5 +1,5 @@
 # [WOOF! API Reference](overview.md#reference)
-## Get a list of all parks
+## Get all parks
 **GET** /park
 
 ## (Optional) Query Parameters

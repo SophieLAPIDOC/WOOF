@@ -1,5 +1,5 @@
 # WOOF! API Documentation
-Greetings Humans! 
+Greetings, Humans! 
 
 The WOOF! API is a service dedicated to connecting dogs, parks and people.
 The WOOF! service aims to enhance your dog walking experience by connecting you and your dog to the best parks the country
@@ -34,10 +34,10 @@ WOOF! lets you discover a full range of dog profiles, from small to large, from 
     * [Remove a dog](dog-delete-dog.md)
 * [park](park-ref.md)
     * [Get all parks](park-get-all-parks.md)
-    * [Get park by ID](park-get-park-by-id.md)
-    * [Add park](park-add-new-park.md)
-    * [Update park](park-update-park.md)
-    * [Remove park](park-delete-park.md)
+    * [Find a park by ID](park-get-park-by-id.a )
+    * [Add a park](park-add-new-park.md)
+    * [Update the details of park](park-update-park.md)
+    * [Remove a park](park-delete-park.md)
 
 ## Contact us
 For assistance or feature requests, contact us at <support@woof-api.com>.

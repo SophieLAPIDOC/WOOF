@@ -1,17 +1,23 @@
 # [WOOF! API Reference](overview.md#reference)
-## Get the details of a park by ID
+## Find a park by ID
 
-**GET** /park/{id}
-## Sample request
+Get the details of a single park identified by its unique ID.
 
+### Request
 ```
-{base_url}/park/4
+GET /park/{id}
 ```
+
 ## Parameters
 
 |Parameter name   |Type   |Description   |   
 |---|---|---|
 | `id`  |integer  | Park's record ID.   |
+
+### Sample request
+```
+{base_url}/park/4
+``` 
 
 ## Sample response
 Status code: `200 OK`

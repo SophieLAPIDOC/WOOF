@@ -1,25 +1,30 @@
 # [WOOF! API Reference](overview.md#reference)
-## Add a new park 
+## Add a park 
+Create a new catalogue entry for a park
 
-**POST** /park
+### Request
+```
+POST {base_url}/park
+```
 
-## Parameters
-|Parameter name   |Type   |Description   |   
+### Request body
+Include  the `park` respurce properties as listed in [park resource](park-ref.md).
+
+### Parameters
+|Property name   |Type   |Description   |   
 |---|---|---|
 | `park_name`  |string   | The name of the park.  |
 | `town`  |string   | Town where the park is located.  |   
 | `coordinates`  |number  | Geographic coordinates of the park, as decimal degrees. |   
-| `hours`  |string   | Opening hours of the park.  |   
+| hours`  |string   | Opening hours of the park.  |   
 | `amenities`  |string  | Brief enumeraton of amenities available to dogs.  |  
 | `comments`  |string   | Any additional information about the park.  |   
-| `rating`  |integerr   | Dog owner rating for the pak, on a 1-5 scale, where 1 is poor satisfaction and 5 is very satisfied.  |   
+| `rating`  |integer  | Dog owner rating for the pak, on a 1-5 scale, where 1 is poor satisfaction and 5 is very satisfied.  |   
+| `id`  |integer  | The record ID of the pak.  |     
 
-## Sample request
-```
-{base_url}/park
-```
 
-## Sample body
+
+### Sample body
 
 ```json
 {
@@ -51,7 +56,5 @@ Status code: `201 Created`
 ## Response status
 |Status value   |Return status  |Description   |   
 |---|---|---|
-| 200  |OK (sucess)  | Request successful. The server has responded as required.  |  
 | 201  |Created  | Request successful. The server created a new resource.  |  
-|404|Not found|Requested resource could not be found.|
 |ECONNREFUSED|N/A|Service is offline. Start the service and try again.|

@@ -75,13 +75,13 @@
   ],
   "park": [
     {
-      "park_name": "string",
-      "town": "string",
-      "coordinates": "0.000, 0.000",
-      "hours": "string",
-      "amenities": "string",
-      "comments": "Y/N",
-      "rating": "1-5",
+      "park_name": "Salt Meadow Park Dog Park",
+      "town": "Madison",
+      "coordinates": "41.272346, -72.549974",
+      "hours": "Salt Meadow Park is open year around from dawn to dusk",
+      "amenities": "No water at the park",
+      "comments": "The park just opened in May so water and shade are yet to be put in but overall great area.",
+      "rating": "4",
       "id": 1
     },
     {

@@ -1,6 +1,6 @@
 # Get started with the WOOF! API
 Using the WOOF! API is a walk in the park. 
-In this tutorial, we'll show you how to find a park in your town, then add your dog's profile to the service. 
+In this quick start topic, we'll show you how to find a park in your town, then add your dog's profile to the service. 
 We'll also show you add a new park to WOOF!
 
 This should take about 15 - 20 minutes to complete. Just a short stroll.
@@ -8,7 +8,7 @@ This should take about 15 - 20 minutes to complete. Just a short stroll.
 If you want to wander further afield, read our advanced [Tutorials](overview.md#tutorials).
 
 ## Prerequisites 
- 1. Start the json-server, as explained in [set up your environment](initial-setup.md)
+ 1. Start the json-server, as explained in [set up your environment](initial-setup.md).
  2. Open the [Postman desktop app](https://www.postman.com/downloads/).
     
 
@@ -39,12 +39,6 @@ This request creates a new dog record in the service.
 POST http://localhost:3000/dog/
 ```
 To add a profile for Tiana, the Husky Cross, send this information in the body of the request:
-Enter your dog's profile. 
-
-Make sure you select a park. In our case, we will use the park we've just found in Madison.
-
-**Note:** Include a default park ID in the body of the reuqest. This can be updated later. By default, the park presence is set to N (No).  
-
 ```json
 {
     "name": "Tiana",
@@ -58,7 +52,12 @@ Make sure you select a park. In our case, we will use the park we've just found 
     "park_id": 3
 }
 ```
-The service returns the following response, with a ID number for Tiana:
+Make sure you select a park. In our case, we will use the park we've just found in Madison CT.
+
+**Note:** The selected park can be updated later. By default, the park presence is set to `N` (No).  
+
+
+The service returns the following response, with `id`: `9` for Tiana:
 
 ```json
 {
@@ -99,4 +98,4 @@ Send as much information about the park as possible in the body of the request.
 }
 ```
 ## Related topics
-To discover other features of the WOOF! API, refer to the [Tutrials](overview.md#tutorials) section.
+To discover other features of the WOOF! API, refer to the [Tutorials](overview.md#tutorials) section.
